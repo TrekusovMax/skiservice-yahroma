@@ -5,8 +5,12 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+      sans: ['Times New Roman'],
+      roboto: ['Roboto', 'sans-serif'],
+      rubik: ['Rubik', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [require('flowbite/plugin')],
 }
-
